@@ -1,0 +1,58 @@
+.header {
+  background:
+    linear-gradient(
+      rgba(0,0,0,.5),
+      rgba(0,0,0,.5)
+    ),
+    url('https://source.unsplash.com/mNWsZDYUCFs/1500x1000');
+  background-size: cover;
+}
+
+.hero {
+  display: flex; // create a flexbox container
+  align-items: center; // center the heading vertically
+  justify-content: center; // center the heading horizontally
+  height: 400px;
+  color: #fff;
+}
+
+.button {
+  padding: 10px 16px;
+  border-radius: 6px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.thumbnail {
+  padding: 4px;
+  line-height: 1.42857143;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image--center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image--circle {
+  border-radius: 50%;
+}
+
+.footer {
+  height: 50px;
+  background-color: #404040;
+  margin-top: 30px;
+}
