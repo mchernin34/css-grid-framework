@@ -50,9 +50,9 @@ body {
 /* BS row class, acts as a grid wrapper */
 
 .row {
-  display: grid; // create the grid container
-  grid-template-columns: repeat(12, 1fr); // define a 12 equally spaced columns grid
-  grid-gap: 20px; // the gutter between the columns
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
 }
 
 /* The columns */
