@@ -9,9 +9,9 @@
 }
 
 .hero {
-  display: flex; // create a flexbox container
-  align-items: center; // center the heading vertically
-  justify-content: center; // center the heading horizontally
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 400px;
   color: #fff;
 }
